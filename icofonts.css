@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?c7o4p');
+  src:  url('fonts/icomoon.eot?c7o4p#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?c7o4p') format('truetype'),
+    url('fonts/icomoon.woff?c7o4p') format('woff'),
+    url('fonts/icomoon.svg?c7o4p#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-csharp:before {
+  content: "\e908";
+}
+.icon-cpp:before {
+  content: "\e907";
+}
+.icon-vs:before {
+  content: "\e906";
+}
+.icon-office:before {
+  content: "\e904";
+}
+.icon-sql:before {
+  content: "\e964";
+}
+.icon-html5:before {
+  content: "\eae4";
+}
+.icon-vscode:before {
+  content: "\e905";
+}
+.icon-css3:before {
+  content: "\e900";
+}
+.icon-blender:before {
+  content: "\e901";
+}
+.icon-js:before {
+  content: "\e902";
+}
+.icon-php:before {
+  content: "\e903";
+}
