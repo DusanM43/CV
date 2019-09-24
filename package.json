@@ -6,11 +6,13 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --open",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "publish": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://dusanm43.github.io/CV",
   "devDependencies": {
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
@@ -24,5 +26,8 @@
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
