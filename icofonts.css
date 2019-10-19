@@ -1,18 +1,17 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?c7o4p');
-  src:  url('fonts/icomoon.eot?c7o4p#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?c7o4p') format('truetype'),
-    url('fonts/icomoon.woff?c7o4p') format('woff'),
-    url('fonts/icomoon.svg?c7o4p#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.ttf?8e3xvd") format("truetype"),
+    url("fonts/icomoon.woff?8e3xvd") format("woff"),
+    url("fonts/icomoon.svg?8e3xvd#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -20,31 +19,23 @@
   text-transform: none;
   line-height: 1;
 
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-csharp:before {
-  content: "\e908";
-}
-.icon-cpp:before {
-  content: "\e907";
-}
-.icon-vs:before {
-  content: "\e906";
-}
 .icon-office:before {
-  content: "\e904";
-}
-.icon-sql:before {
-  content: "\e964";
-}
-.icon-html5:before {
-  content: "\eae4";
-}
-.icon-vscode:before {
-  content: "\e905";
+  content: "\e90a";
 }
 .icon-css3:before {
   content: "\e900";
@@ -57,4 +48,31 @@
 }
 .icon-php:before {
   content: "\e903";
+}
+.icon-vscode:before {
+  content: "\e905";
+}
+.icon-vs:before {
+  content: "\e906";
+}
+.icon-cpp:before {
+  content: "\e907";
+}
+.icon-csharp:before {
+  content: "\e908";
+}
+.icon-sql:before {
+  content: "\e964";
+}
+.icon-html5:before {
+  content: "\eae4";
+}
+.icon-git:before {
+  content: "\eae7";
+}
+.icon-photoshop:before {
+  content: "\e909";
+}
+.icon-illustrator:before {
+  content: "\e904";
 }
