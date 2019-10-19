@@ -1,3 +1,4 @@
+@import "variables";
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 * {
@@ -13,7 +14,7 @@ body {
 }
 
 #home,
-#profile,
+#info,
 #skills,
 #programs {
   min-height: 100vh;
@@ -34,6 +35,7 @@ body {
   }
 
   h1 {
+    opacity: 1;
     font-size: 3rem;
     color: #80ccff;
   }
@@ -44,9 +46,9 @@ body {
   }
 }
 
-///////////////////// PROFILE DIV ////////////////////
+///////////////////// INFO DIV ////////////////////
 
-#profile {
+#info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,6 +100,7 @@ body {
     p {
       color: white;
       text-align: justify;
+      line-height: 1.5;
     }
   }
 }
@@ -189,3 +192,5 @@ body {
     }
   }
 }
+
+@import "header";

@@ -1,0 +1,7 @@
+$primary-color: #80ccff;
+
+@mixin mediaM {
+  @media only screen and (max-width: 992px) {
+    @content;
+  }
+}
